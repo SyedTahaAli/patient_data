@@ -17,6 +17,9 @@ var patientSchema = new Schema({
     },
     date : {
         type : Date,
+    },
+     cost :{
+        type : String,
     }
 })
 
