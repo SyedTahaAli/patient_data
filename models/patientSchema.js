@@ -11,7 +11,7 @@ var patientSchema = new Schema({
        type: String,
        required : true, 
     },
-    medication_provided: {
+    medication: {
        type: String,
        required : true, 
     },
