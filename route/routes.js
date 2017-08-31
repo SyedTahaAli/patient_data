@@ -7,7 +7,7 @@ module.exports = (app) => {
 
     app.post('/api/createPatientProfile', controler.createPatientProfile)
 
-    app.post('/api/findPatientByName', controler.findPatientByName)
+    app.get('/api/findPatientByName', controler.findPatientByName)
 
     app.post('/api/findPatientByDate', controler.findPatientByDate)
 }
